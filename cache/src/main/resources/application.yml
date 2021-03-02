@@ -1,8 +1,8 @@
 spring:
   cache:
     type: redis
-    #redis:
-      #time-to-live: 5000
+    redis:
+      time-to-live: 5000
   redis:
     host: localhost
 logging:
