@@ -14,6 +14,12 @@ public class ProductRepository {
     public List<Product> listAll() {
         log.info("c=ProductRepository, m=listAll");
 
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         // Builder
         final Product product = Product.builder()
                 .sku("Produto")

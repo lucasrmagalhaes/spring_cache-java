@@ -1,0 +1,6 @@
+spring:
+  cache:
+    type: simple
+logging:
+  level:
+    org.springframework.cache: TRACE
